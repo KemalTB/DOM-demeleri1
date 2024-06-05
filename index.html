@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ödev</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .image-container {
+            width: 300px;
+            height: 300px;
+        }
+        .buttons {
+            margin-top: 30px;
+        }
+        .buttons button {
+            margin-right: 10px;
+            /* margin-top: 20px; */
+            padding: 10px 22px;
+            font-size:medium
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img id="mainImage" src="img2.jpg" alt="Image" width="300" height="300">
+    </div>
+    <div class="buttons">
+        <button id="araButton">ARA</button>
+        <button id="baglatButton">BAĞLAT</button>
+        <button id="konusButton">KONUŞ</button>
+    </div>
+    <audio id="retroAudio" src="retro-ringtone.mp3"></audio>
+    <audio id="kukremeAudio" src="aslan_kukreme.mp3"></audio>
+    <audio id="aloAudio" src="ALO.mp3"></audio>
+    <audio id="kapatAudio" src="kapat.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
